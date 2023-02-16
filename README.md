@@ -2,7 +2,7 @@
 
 This project is a Java implementation of the famous game Rubik's Cube. It was developed in 2017 and was shared on GitHub as a demonstration of my past work in 2019.
 
-The game features a 3D interface that doesn't rely on an game engine, but instead uses its own 3D functions to render the view using Java built-in swing framework.
+The game features a 3D interface that doesn't rely on an external game engine, but instead uses its own 3D functions to render the view using Java built-in swing framework.
 
 The 3D rendering is done with points that are used to create triangles. These triangles are then rendered as 2D figures in a process called rasterization. This involves projecting the triangles onto a 2D plane and using techniques such as z-buffering to determine which pixels should be rendered in the final image, and perspective projection to account for the depth of each pixel.
 
